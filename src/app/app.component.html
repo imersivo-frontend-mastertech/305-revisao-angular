@@ -6,9 +6,9 @@
     <app-banner></app-banner>
 
     <div>
-        <app-texto></app-texto>
-        <app-texto></app-texto>
-        <app-texto></app-texto>
+        <app-texto *ngFor="let item of itens" titulo="{{item.titulo}}" texto="{{item.texto}}">
+
+        </app-texto>
     </div>
 
     <app-rodape></app-rodape>

@@ -4,6 +4,7 @@
 }
 
 div{
+    left: 0;
     width: 100%;
     height: 200px;
     background-color: #444;
@@ -12,6 +13,7 @@ div{
     position: absolute;
     transition: 1s;
     opacity: 0;
+    text-align: center;
 }
 
 div.visivel{
